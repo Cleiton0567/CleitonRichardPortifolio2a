@@ -31,11 +31,7 @@ Body (fechamento): Tag que serve para fechar essa etapa;
 
 html (fechamento): Serve para fechar  o corpo da página.
 
-<h1> Aula do dia 01/06/23 </h1>
-
-Arquivo (s):
-
-Função que retorna os dados para a página ou servidor
+<h1> Aula do dia 01/06/2023 </h1>
 
 Descrição: Página  web que quando é usado a função google.script.run.withSuccessHandler ele retorna os dados para o servidor ou para a página.
 
@@ -48,3 +44,21 @@ As tecnologias usadas foram: JavaScript  e  google App Sript
 Dificuldades/erros encontrados durante o desenvolvimento do projeto.
 
 Descricão: Não foi possível identificar a variável calcular média dentro do projeto que foi criado. Solução: Isso ocorre devido há um pequeno erro ortografico que não conseguiu ler ou entender.
+
+<h1> Aula do dia 02/06/2023 </h1>
+  
+Arquivo (s):
+
+Login de e-mail e senha
+  
+Descrição: Criação de uma página web para fazer o login de e-mail e senha. Utilizando o google app script.
+  
+O que eu aprendir: Vamos dizer que eu aprendir um pouco, pois eu tive um pouquinho de dificuldade para realizar a atividade de programação web.  No entanto, eu vir vídeo aula sobre  os assuntos que eu já havia estudado.
+
+Tecnologias  usadas: JavaScript e google app script.
+
+Dificuldades: Os erros encontrados  foram ErrordeSintax.
+
+Descrição: Error de Sintaxe. Solução: Isso ocorre por causa de uma palavra que não está colocada no lugar anadequado. E é por isso, que o servidor  emiti essa frase.
+
+Erro de Sintaxe: ocorrem quando o Python está traduzindo o código fonte do seu programa em código executável.
