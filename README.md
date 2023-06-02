@@ -39,8 +39,12 @@ Função que retorna os dados para a página ou servidor
 
 Descrição: Página  web que quando é usado a função google.script.run.withSuccessHandler ele retorna os dados para o servidor ou para a página.
 
+google.script.run.withSuccessHandler:  Define uma função de retorno de chamada a ser executada se a  função do lado do servidor retornar com êxito
+
+google.script.run: é uma API JavaScript assíncrona do lado do cliente disponível em páginas  de serviço HTML que podem chamar funções do Apps Script do servidor.
+
 As tecnologias usadas foram: JavaScript  e  google App Sript
 
-Dificuldades/erros encontrados durante o desenvolvimento do projeto
+Dificuldades/erros encontrados durante o desenvolvimento do projeto.
 
-Descrissão: Não foi possível  identificar o calculo da média. Soluyção: isso ocorre devido há um erro ortografico no sistema que não conseguiu identificar e nem ler
+Descricão: Não foi possível identificar a variável calcular média dentro do projeto que foi criado. Solução: Isso ocorre devido há um pequeno erro ortografico que não conseguiu ler ou entender.
