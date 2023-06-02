@@ -30,3 +30,17 @@ h1 (fechamento): Tag que serve para fecgar o texto inserido ateriomente;
 Body (fechamento): Tag que serve para fechar essa etapa;
 
 html (fechamento): Serve para fechar  o corpo da página.
+
+<h1> Aula do dia 01/06/23 </h1>
+
+Arquivo (s):
+
+Função que retorna os dados para a página ou servidor
+
+Descrição: Página  web que quando é usado a função google.script.run.withSuccessHandler ele retorna os dados para o servidor ou para a página.
+
+As tecnologias usadas foram: JavaScript  e  google App Sript
+
+Dificuldades/erros encontrados durante o desenvolvimento do projeto
+
+Descrissão: Não foi possível  identificar o calculo da média. Soluyção: isso ocorre devido há um erro ortografico no sistema que não conseguiu identificar e nem ler
