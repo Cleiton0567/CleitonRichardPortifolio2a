@@ -62,3 +62,17 @@ Dificuldades: Os erros encontrados  foram ErrordeSintax.
 Descrição: Error de Sintaxe. Solução: Isso ocorre por causa de uma palavra que não está colocada no lugar anadequado. E é por isso, que o servidor  emiti essa frase.
 
 Erro de Sintaxe: ocorrem quando o Python está traduzindo o código fonte do seu programa em código executável.
+
+<h1> Aula do 15/06/2023 </h1>
+
+Arquivo(s):
+
+Função que recebe os dados  do formulário e que retorna a URL da aplicação.
+
+Descrição: Página que  recebe os dados do formulario e depois retorna com a função que é a URL da aplicação.
+
+Tecnologias usadas: GoogleAppScript.
+
+Diculdades : Não sentir nenhuma dificuldade em realizar essa atividade.
+
+Descrição: Com base na realização da atividade, não conseguir encontrar nenhuma dificuldade. Mas de vez enquando, sinto umas dificuldades na realização de algumas atividades.
