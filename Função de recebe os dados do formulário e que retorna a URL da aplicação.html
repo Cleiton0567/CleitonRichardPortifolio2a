@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+
+    <? var url = getUrl() ?>
+
+    <form action="<?= url ?>" method="POST">
+      <label for="msg">Mensagem:</label>
+      <input type="text" id="msg" name="msg">
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco">
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+
+Código gs
+
+function doGet() {
+  return HtmlService.createTemplateFromFile('Formulario').evaluate();
+}
+
+function doPost(e){
+  Logger.log(e.parameter.msg)
+  Logger.log(e.parameter.endereco)
+}
+
+function getUrl(){
+  var url = ScriptApp.getService().getUrl();
+  return url
+}
+
