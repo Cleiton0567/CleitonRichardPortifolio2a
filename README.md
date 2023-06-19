@@ -76,3 +76,33 @@ Tecnologias usadas: GoogleAppScript.
 Diculdades : Não sentir nenhuma dificuldade em realizar essa atividade.
 
 Descrição: Com base na realização da atividade, não conseguir encontrar nenhuma dificuldade. Mas de vez enquando, sinto umas dificuldades na realização de algumas atividades.
+
+<h1> Auala do dia 16/06/2023 </h1>
+
+Arquivo(s):
+
+cadLivros
+
+Descrição: Uma página quando é escrita dentro dela ela envia os dados para planilha.
+
+Tecnologias utilizadas:
+
+GoogleAppScript
+
+Dificuladads/erros encontrados durante o desenvolvimento do projeto:
+
+Error The script completed but did not return any value.
+
+Descrição: O script foi concluído, mas não retornou nenhum valor. Solução: Visualizar bem código por código ver se algo não estar errado, pois quando um valor não é retornado significa que uma parte do seu código não apresentou retorno.
+
+Qual a função do Logger.log? 
+
+Salva, organiza e faz o backup de todos os arquivos digitais gerados durante o set.
+
+Qual a função do doPost?
+
+E usada quando tem uma necessidade de alteração do banco de dados, ou inclusões de serviços.
+
+Qual a função do parameter?
+
+E a variável que irá receber um valor em uma função (ou método).
