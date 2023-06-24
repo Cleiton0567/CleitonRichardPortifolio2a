@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <? var url = getUrl() ?>
+
+    <form action="<?= url ?>" method="POST"
+
+      <label for="dias">Numero de Dias do Mes:</label>
+      <input type="text" id="dias">
+
+      <label for="qtdAlunos">Quantidade de Alunos na Escola:</label>
+      <input type="text" id="qtdAlunos">
+
+      <label for="qtdRefeicao">Quantidade de Refeicao por Dia:</label>
+      <input type="text" id="qtdRefeicao">
+
+      <button type="submit()">Cadastrar</button> </br>
+
+    </form>
+  </body>
+</html>
+
+
+Código.gs
+
+
+function doGet() {
+  return HtmlService.createTemplateFromFile('Merendas').evaluate();
+}
+
+function getUrl(){
+  var url = ScriptApp.getService().getUrl();
+  return url;
+}
+
+function doPost(e){
+  Logger.log(e.parameter.dias)
+  var dias = e.parameter.dias;
+  var qtdAlunos = e.parameter.qtdAlunos;
+  var qtdRefeicao = e.parameter.qtdRefeicao;
+
+var planilha = SpreadsheetApp.openById('1qziHbGP3Z5lcb2LzMu00n0Pt946421iJZ1TrBRNHtbw')
+
+var tabela = planilha.getSheetByName('tabela_livros1')
+
+tabela.oppendRow([dias,qtdAlunos,qtdRefeicao])
+
+}

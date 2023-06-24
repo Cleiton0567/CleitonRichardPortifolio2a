@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+
+    <h1>Quantidade de merenda</h1>
+
+    <label for="dias">Numero de Dias do Mes:</label>
+    <input type="text" id="dias">
+
+    <label for="qtdAlunos">Quantidade de Alunos na Escola:</label>
+    <input type="text" id="qtdAlunos">
+
+    <label for="qtdRefeicao">Quantidade de Refeicao por Dia:</label>
+    <input type="text" id="qtdRefeicao">
+
+    <button onclick="calcularValor()">Calcular Valor</button> </br>
+
+    <div>
+      <p>Reultado:</p>
+      <p id="resultadoValor"></p>
+    </div>
+
+    <script>
+
+      function calcularValor(){
+
+        var dias = parseFloat(document.getElementById('dias').value);
+        var qtdAlunos = parseFloat(document.getElementById('qtdAlunos').value);
+        var qtdRefeicao = parseFloat(document.getElementById('qtdRefeicao').value);
+
+        google.script.run.withSuccessHandler(exibirValor).calcularValor(dias, qtdAlunos, qtdRefeicao);
+      }
+      function exibirValor(valor){
+        var resultadoValor = document.getElementById('resultadoValor');
+        resultadoValor.innerHTML = valor;
+
+      }
+
+    </script>
+  </body>
+</html>
+
+
+Código.gs
+
+
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('MerendadosAlunos')
+}
+
+function calcularValor(dias, qtdAlunos, qtdRefeicao){
+  var valorFinal = dias*qtdAlunos*qtdRefeicao
+  return valorFinal;
+}
