@@ -106,3 +106,27 @@ E usada quando tem uma necessidade de alteração do banco de dados, ou inclusõ
 Qual a função do parameter?
 
 E a variável que irá receber um valor em uma função (ou método).
+
+<h1> Aula do dia 22/06/2023 </h1>
+
+Arquivo(s):
+
+Merenda dos Alunos e Merendas
+
+Descrição: O primeiro arquivo tem como objetivo de calcular o valor final da merenda. O segundo arquivo tem como principal objetivo de exibir o valor final no log do servidor.
+
+Tecnologias utilizadas:
+
+Google App Script
+JavaScript
+
+Nome das funções Google App Script utilizadas:
+
+No primeiro arquivo: função calcularValor, função exibirValor e função doGet (código.gs)
+
+No segundo aquivo: função doGet, função getUrl e função doPost (código.gs)
+
+Arquivos do projeto identificados e adicionados ao portfólio:
+
+Os arquivos identificados foram Merenda dos Alunos e Merendas. E foram adcionados no portifólio.
+
