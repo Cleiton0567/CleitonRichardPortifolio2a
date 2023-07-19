@@ -33,6 +33,8 @@ html (fechamento): Serve para fechar  o corpo da página.
 
 <h1> Aula do dia 01/06/2023 </h1>
 
+Arquivo(s): Calcular Média e Média Ponderada
+
 Descrição: Página  web que quando é usado a função google.script.run.withSuccessHandler ele retorna os dados para o servidor ou para a página.
 
 google.script.run.withSuccessHandler:  Define uma função de retorno de chamada a ser executada se a  função do lado do servidor retornar com êxito
@@ -44,6 +46,8 @@ As tecnologias usadas foram: JavaScript  e  google App Sript
 Dificuldades/erros encontrados durante o desenvolvimento do projeto.
 
 Descricão: Não foi possível identificar a variável calcular média dentro do projeto que foi criado. Solução: Isso ocorre devido há um pequeno erro ortografico que não conseguiu ler ou entender.
+
+<a>https://script.google.com/macros/s/AKfycby5sxTtfz_7VPeYR6Sa-K94Os9Mk4YUwsIxtgJRYxNXneSsC--YpO7ZTNuLFE9pQIZiqA/exec</a>
 
 <h1> Aula do dia 02/06/2023 </h1>
   
@@ -63,11 +67,13 @@ Descrição: Error de Sintaxe. Solução: Isso ocorre por causa de uma palavra q
 
 Erro de Sintaxe: ocorrem quando o Python está traduzindo o código fonte do seu programa em código executável.
 
+<a>https://script.google.com/macros/s/AKfycbyKFXWQjzy2fYUdjRCa-ChpfQMBjXTfAnJ1En1Uw_v3sWcDdQ8BOlAB9D3-EVzn6bBe5g/exec</a>
+
 <h1> Aula do 15/06/2023 </h1>
 
 Arquivo(s):
 
-Função que recebe os dados  do formulário e que retorna a URL da aplicação.
+Lista de excerciícios 1
 
 Descrição: Página que  recebe os dados do formulario e depois retorna com a função que é a URL da aplicação.
 
@@ -76,6 +82,8 @@ Tecnologias usadas: GoogleAppScript.
 Diculdades : Não sentir nenhuma dificuldade em realizar essa atividade.
 
 Descrição: Com base na realização da atividade, não conseguir encontrar nenhuma dificuldade. Mas de vez enquando, sinto umas dificuldades na realização de algumas atividades.
+
+<a>https://script.google.com/macros/s/AKfycbzh1gSWb0WzC6XAGblGfeayvxeO_Ah2WpyGMj97sko7E0tQ4zJhu0rdi4xuCsBL6K8YEA/exec</a>
 
 <h1> Auala do dia 16/06/2023 </h1>
 
@@ -107,26 +115,27 @@ Qual a função do parameter?
 
 E a variável que irá receber um valor em uma função (ou método).
 
+<a>https://script.google.com/macros/s/AKfycbyjGYjRTnPaSb0NjV2g2lFQACn4MrnZhwJOtYWmQ9YHFeQp6Q0sdFfrlfJlaWHDgkRl/exec</a>
+
 <h1> Aula do dia 22/06/2023 </h1>
 
 Arquivo(s):
 
-Merenda dos Alunos e Merendas
+Lista de compras
 
-Descrição: O primeiro arquivo tem como objetivo de calcular o valor final da merenda. O segundo arquivo tem como principal objetivo de exibir o valor final no log do servidor.
+Descrição: O arquivo tem como objetivo de calcular os gastos dos produtos e etc. 
 
 Tecnologias utilizadas:
 
 Google App Script
-JavaScript
 
 Nome das funções Google App Script utilizadas:
 
-No primeiro arquivo: função calcularValor, função exibirValor e função doGet (código.gs)
-
-No segundo aquivo: função doGet, função getUrl e função doPost (código.gs)
+Funções usadas: Usei só as funções no código.gs que foram a function doGet function incluir (estilo)
 
 Arquivos do projeto identificados e adicionados ao portfólio:
 
-Os arquivos identificados foram Merenda dos Alunos e Merendas. E foram adcionados no portifólio.
+Os arquivos identificados foram as listas de compras e os gatos que foram gastados com os produtos e/ou limpeza.
+
+<a>https://script.google.com/macros/s/AKfycbyFZxWWWp7UFjD0tRTGbzDB2jms80RBH-XzA9QpsKCGgY9516G6T1u9lu9kup2DIgjxLQ/exec</a>
 
